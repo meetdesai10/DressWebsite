@@ -39,13 +39,25 @@ header {
   width: 100%;
   background-color: transparent;
   z-index: 3333;
-  background-color: black;
-  transition: 0.5s all ease-in-out;
+  background-color: grey;
+  transition: 0.2s all ease-in-out;
 }
 .header-nav .header-padding {
   padding: 15px 0px;
 }
-/* ************************ over ************************* */
+.header-nav-dark{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 3333;
+  background-color: #19211e; 
+  transition: 0.2s all ease-in-out;
+}
+.header-nav-dark .header-padding {
+  padding: 15px 0px;
+}
+/* ************************ over *********************** */
 header .header-margin {
   margin: 0px 170px;
 }
@@ -173,7 +185,7 @@ header .nav-bar .navigation-togglenaviga ul li a:hover {
 }
 /* ************** create a random class for darkmode**************** */
 .darkmode {
-  background-color: black;
+  background-color: #19211e;
   color: #ff1654;
   transition: 0.5s all ease-in-out;
 }
@@ -433,11 +445,13 @@ span {
 }
 /* ************random class for darkmode****************** */
 .section3-dark {
-  background-color: black;
+  background-color: #19211e;
+  ;
   color: #ff1654;
 }
 .section3-dark .minisection2 .box {
-  background-color: black;
+  background-color: #19211e;
+  ;
   padding: 30px;
   margin-top: 60px;
   box-shadow: 0px 0px 10px 3px rgb(176, 173, 173);
@@ -534,7 +548,8 @@ span {
 }
 /* ***** create random class for dark mode********** */
 .section4-dark {
-  background-color: black;
+  background-color: #19211e;
+  ;
   transition: 0.5s all ease-in-out;
 }
 .section4-dark p {
@@ -898,7 +913,8 @@ span {
 }
 /* ************random class for darkmode********** */
 .section8-dark {
-  background-color: black;
+  background-color: #19211e;
+  ;
   color: #ff1654;
   transition: 0.5s all ease-in-out;
 }

@@ -1,5 +1,6 @@
 let bar=document.querySelector(".fa-bars");
 let nav=document.querySelector(".navigation");
+let head =document.getElementById("header");
 bar.addEventListener("click",function(){
     nav.classList.toggle("navigation-toggle");
 })
