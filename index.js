@@ -20,19 +20,3 @@ icon.addEventListener("click",function(){
         icon.classList.add("bi-moon");
     }
 });
-
-// ************** slider **************************
-$(document).ready(function () {
-    $(".bxslider").bxSlider({
-      mode: "fade",
-      speed: 1000,
-      randomStart: true,
-      infiniteLoop: true,
-      captions: false,
-      pager: false,
-      pagerType: "full",
-      controls: false,
-      auto: true,
-      autoHover: false,
-    });
-  });
